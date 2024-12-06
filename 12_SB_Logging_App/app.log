@@ -1,0 +1,19 @@
+2024-12-06T23:16:18.513+05:30  INFO 20696 --- [12_SB_Logging_App] [main] in.tulasi.Application                    : Starting Application using Java 17.0.10 with PID 20696 (C:\Users\tulas\OneDrive\Desktop\JRTP\12_SB_Logging_App\target\classes started by tulas in C:\Users\tulas\OneDrive\Desktop\JRTP\12_SB_Logging_App)
+2024-12-06T23:16:18.515+05:30  INFO 20696 --- [12_SB_Logging_App] [main] in.tulasi.Application                    : No active profile set, falling back to 1 default profile: "default"
+2024-12-06T23:16:19.135+05:30  INFO 20696 --- [12_SB_Logging_App] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-06T23:16:19.149+05:30  INFO 20696 --- [12_SB_Logging_App] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-06T23:16:19.151+05:30  INFO 20696 --- [12_SB_Logging_App] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-06T23:16:19.191+05:30  INFO 20696 --- [12_SB_Logging_App] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-06T23:16:19.191+05:30  INFO 20696 --- [12_SB_Logging_App] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 634 ms
+2024-12-06T23:16:19.455+05:30  INFO 20696 --- [12_SB_Logging_App] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-06T23:16:19.463+05:30  INFO 20696 --- [12_SB_Logging_App] [main] in.tulasi.Application                    : Started Application in 1.281 seconds (process running for 1.742)
+2024-12-06T23:16:29.063+05:30  INFO 20696 --- [12_SB_Logging_App] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-06T23:16:29.065+05:30  INFO 20696 --- [12_SB_Logging_App] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-06T23:16:29.065+05:30  INFO 20696 --- [12_SB_Logging_App] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-12-06T23:16:29.088+05:30  INFO 20696 --- [12_SB_Logging_App] [http-nio-8080-exec-1] in.tulasi.rest.MessageController         : welcomeMsg() execution started....
+2024-12-06T23:16:29.088+05:30 ERROR 20696 --- [12_SB_Logging_App] [http-nio-8080-exec-1] in.tulasi.rest.MessageController         : Exception Occured/ by zero
+2024-12-06T23:16:29.089+05:30  WARN 20696 --- [12_SB_Logging_App] [http-nio-8080-exec-1] in.tulasi.rest.MessageController         : This is warning from welcome method... 
+2024-12-06T23:16:29.089+05:30  INFO 20696 --- [12_SB_Logging_App] [http-nio-8080-exec-1] in.tulasi.rest.MessageController         : welcomeMsg() execution ended....
+2024-12-06T23:46:56.727+05:30  INFO 20696 --- [12_SB_Logging_App] [RMI TCP Connection(40)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-12-06T23:46:56.808+05:30  INFO 20696 --- [12_SB_Logging_App] [RMI TCP Connection(40)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-06T23:46:56.969+05:30  INFO 20696 --- [12_SB_Logging_App] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
